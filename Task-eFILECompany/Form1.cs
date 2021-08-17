@@ -16,9 +16,10 @@ namespace Task_eFILECompany
         public Form1()
         {
             InitializeComponent();
+            SelectRoot();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        void SelectRoot()
         {
             //Clear TreeView
             treeView1.Nodes.Clear();

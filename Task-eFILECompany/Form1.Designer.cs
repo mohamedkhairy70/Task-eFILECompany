@@ -32,7 +32,6 @@ namespace Task_eFILECompany
             this.panel1 = new System.Windows.Forms.Panel();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btn_Save = new System.Windows.Forms.Button();
@@ -81,7 +80,6 @@ namespace Task_eFILECompany
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.panel4.Controls.Add(this.button1);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
@@ -89,16 +87,6 @@ namespace Task_eFILECompany
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(337, 41);
             this.panel4.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(192, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 33);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Select Root";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -285,7 +273,6 @@ namespace Task_eFILECompany
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox img_Logo;
         private System.Windows.Forms.Button btn_Save;
         private System.Windows.Forms.TextBox txt_Email;
